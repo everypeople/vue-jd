@@ -1,0 +1,31 @@
+{
+  "name": "vue-jd",
+  "version": "0.0.0",
+  "description": "A vue project.",
+  "private": false,
+  "keywords": [],
+  "scripts": {
+    "dev": "cooking watch -p",
+    "dist": "cooking build -p",
+    "deploy": "cooking build --no-color"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:everypeople/vue-jd.git.git"
+  },
+  "homepage": "git@github.com:everypeople/vue-jd.git#readme",
+  "bugs": {
+    "url": "git@github.com:everypeople/vue-jd.git/issues"
+  },
+  "author": "wangjian",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^2.0.1",
+    "babel-polyfill": "*"
+  },
+  "devDependencies": {
+    "cooking-vue2": "*",
+    "vue": "^2.5.10",
+    "vue-template-compiler": "^2.5.10"
+  }
+}
