@@ -5,6 +5,7 @@
 
 ```shell
 npm i cooking-cli -g
+npm i
 npm run dev
 ```
 
