@@ -20,12 +20,11 @@
   "author": "wangjian",
   "license": "ISC",
   "dependencies": {
-    "vue": "^2.0.1",
     "babel-polyfill": "*"
   },
   "devDependencies": {
     "cooking-vue2": "*",
-    "vue": "^2.5.10",
+    "vue": "^2.5.13",
     "vue-router": "^3.0.1",
     "vue-template-compiler": "^2.5.10"
   }
