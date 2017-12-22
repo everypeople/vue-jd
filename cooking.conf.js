@@ -28,9 +28,10 @@ cooking.set({
   static: true,
   extractCSS: '[name].[contenthash:7].css',
   alias: {
-    'src': path.join(__dirname, 'src')
+      'src': path.join(__dirname, 'src'),
+      '@': 'src'
   },
-  extends: ['vue2', 'lint', 'sass', 'autoprefixer']
+  extends: ['vue2', 'sass', 'autoprefixer']
 });
 
 module.exports = cooking.resolve();
