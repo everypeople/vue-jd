@@ -1,14 +1,15 @@
 <template>
   <div>
-    <h1>vue-jd</h1>
-    <p>A vue project.</p>
+    <Header></Header>
     <router-view></router-view>
   </div>
 
 </template>
 
 <script>
+  import Header from '@/components/header'
   export default {
-    name: 'app'
+    name: 'app',
+      components:{Header}
   };
 </script>

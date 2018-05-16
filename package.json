@@ -20,7 +20,8 @@
   "author": "wangjian",
   "license": "ISC",
   "dependencies": {
-    "babel-polyfill": "*"
+    "babel-polyfill": "*",
+    "vue-loader": "^14.2.2"
   },
   "devDependencies": {
     "cooking-vue2": "*",

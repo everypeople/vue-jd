@@ -1,6 +1,6 @@
 <template>
     <div>
-        首页
+        首dddd页
     </div>
 </template>
 <script>
